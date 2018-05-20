@@ -34,6 +34,7 @@ void timer()
       {
          if((bit_is_set(PINB,0))==0)        //If increasing rate button is pressed
            {
+            x+=1000;
             if(x>=65536)                   //If max rate is reached, set to min rate.
               x=0;
             while((bit_is_set(PINB,0))==0);
