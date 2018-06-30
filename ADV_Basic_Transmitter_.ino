@@ -485,6 +485,6 @@ int main() {
     }
     delay_time();
   }
-  return 1;
+  return 0;
 }
 
